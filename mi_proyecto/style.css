@@ -1,0 +1,98 @@
+body {
+    background-color: #000; 
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header, nav, main {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 1em;
+    border-radius: 10px; 
+    margin: 10px;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: style;
+    text-decoration-style: solid;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main img {
+    width: 100%; 
+    height: auto; 
+    max-width: 300px; 
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+     
+}
+
+
+header {
+    background-image: url('./pre-entrega1/Imagenes/Social Adventure1_files/432005201_605989831729563_5553178438045273287_n.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 400px; 
+    text-align: center; 
+    color: white; 
+    padding-top: 100px; 
+}
+
+header h1 {
+    font-size: 5em; 
+}
+
+header p {
+    font-size: 1.5em; 
+}
+
+
+
+
+
+header .banner {
+    background: url('./path-to-your-banner-image.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Espacio entre cards */
+    flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+    gap: 20px; /* Espacio entre cards */
+}
+
+.card {
+    flex: 1 1 18rem; /* Cards con tamaño mínimo de 18rem */
+    max-width: 18rem;
+    margin: 10px; /* Opcional: Espacio extra alrededor de cada card */
+}
+
+
+
+
