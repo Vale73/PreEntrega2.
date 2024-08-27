@@ -1,0 +1,95 @@
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Imagenes\Social Adventure1_files\social_adventure.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: red;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 1em 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+main .content-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+}
+
+main .content-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
