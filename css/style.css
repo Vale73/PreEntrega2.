@@ -1,81 +1,44 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url("./pre-entrega1/Imagenes/Social Adventure1_files/432005201_605989831729563_5553178438045273287_n.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  text-align: center;
-  color: red;
-  padding: 0 20px;
+body {
+  background-color: #121212; /* Fondo más oscuro */
+  color: #ffffff; /* Texto blanco */
+  font-family: 'Roboto', sans-serif;
 }
 
-header h1 {
+.banner {
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente oscuro */
+  padding: 50px 20px; /* Aumenta el padding para mejorar la estética */
+  margin-top: -20px; /* Ajusta el margen superior para evitar espacio innecesario */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.banner h1 {
   font-size: 4em;
-  margin-bottom: 0.5em;
-}
-
-header p {
-  font-size: 1.5em;
-  margin-top: 0;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
   margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Agrega sombra al texto para mejor visibilidad */
 }
 
-nav li {
-  margin-right: 1em;
+nav a.nav-link {
+  color: #ffffff; /* Texto blanco */
+  transition: color 0.3s;
 }
 
-nav li:last-child {
-  margin-right: 0;
+nav a.nav-link:hover {
+  color: #ddd; /* Color más claro al hacer hover */
 }
 
 main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  margin: 10px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7); /* Hacer el fondo un poco más oscuro */
+  padding: 40px; /* Aumentar el padding para mejor espaciado */
   border-radius: 10px;
-}
-
-main img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+  color: #ffffff; /* Asegurar que el texto sea blanco para el contraste */
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
+  background-color: #1a1a1a; /* Fondo ligeramente más claro para el footer */
+  padding: 20px 0;
   color: #fff;
-  padding: 1em 0;
-  margin-top: 20px;
-  border-radius: 10px;
 }
 
-main .content-section {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
-  align-items: center;
-}
-
-main .content-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 
 /*# sourceMappingURL=style.css.map */
